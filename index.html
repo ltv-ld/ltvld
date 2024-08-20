@@ -150,7 +150,50 @@
         align-items: flex-start;
       }
 
+      .img-list img {
+        width: 30%;
+        display: inline-block;
+        margin-right: 2%;
+        border: 1px solid #e6e6e6;
+    box-shadow: 4px 4px 5px 0px rgb(52 52 52 / 39%);
+    cursor: pointer;
+      }
+
+      .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .popup .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            z-index: 1001;
+        }
+
       @media (max-width: 768px) {
+        .img-list img {
+        width: 50%;
+      }
+
         .container {
           padding: 15px;
         }
@@ -205,6 +248,10 @@
       }
 
       @media (max-width: 480px) {
+        .img-list img {
+        width: 100%;
+      }
+
         .avatar {
           width: 90px;
           height: 90px;
@@ -240,9 +287,9 @@
     <div class="container">
       <header>
         <h1>
-          <span> LÊ VĂN TRUNG </span>
+          <span> LÊ VĂN TRUNG (Kisper)</span>
           <br />
-          ĐỐI TƯỢNG: CHUYÊN QUỴT TIỀN VÀ LỪA ĐẢO
+          Đối tượng: CHUYÊN QUỴT TIỀN VÀ LỪA ĐẢO
         </h1>
 
         <div class="avatar-container">
@@ -327,12 +374,26 @@
                     >
                   </li>
                   <li>
-                    <a
+                    <a q
                       target="_blank"
                       href="https://www.topcv.vn/cong-ty/cong-ty-tnhh-truyen-thong-da-phuong-tien-kisper-digital/136115.html"
                       >topcv.vn/kisper-digital</a
                     >
                   </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.tiktok.com/@kisperdigital"
+                      >tiktok.com/@kisperdigital</a
+                    >
+                  </li>
+                  <li>
+                    <a>Zalo: 0354.626.141</a>
+                  </li>
+                  <li>
+                    <a>Gmail: kisperdigital@gmail.com</a>
+                  </li>
+                  
                 </ul>
               </div>
               <div class="item">
@@ -344,17 +405,25 @@
                 >
                 <ul style="margin: 3px; padding-left: 20px">
                   <li>
-                    <a target="_blank" href="https://kisperdigital.asia"
+                    <a target="_blank" href="https://inankhaihoan.vn/"
                       >In ấn Khải Hoàn</a
                     >
                   </li>
                   <li>
                     <a
                       target="_blank"
-                      href="https://www.facebook.com/hiiamkisper"
+                      href="https://flatworldagency.com/"
                       >Flat World Agency</a
                     >
                   </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://tesmarketing.com.vn/"
+                      >Tesmarketing</a
+                    >
+                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -363,7 +432,7 @@
       </header>
 
       <div class="section">
-        <h2>Đặc điểm nhận dạng Lê Văn Trung lừa đảo:</h2>
+        <h2>Đặc điểm nhận dạng Lê Văn Trung (Kisper) lừa đảo:</h2>
         <ul>
           <li>
             <strong> Tâm sinh tướng: <br /></strong>
@@ -372,30 +441,44 @@
           </li>
           <li>
             <strong>Hoàn cảnh gia đình: <br /></strong>
-            - Có bố làm bộ đội, mẹ làm giáo viên. (đã từ mặt bố mẹ)<br />
+            - Có bố làm bộ đội, mẹ làm giáo viên. (Đã từ mặt bố mẹ)<br />
             - Người thân họ hàng đều xa lánh do bị nhiều người tìm nó đòi
             tiền.<br />
             - Còn 1 đứa em tê Lê Trung Dũng hiện đang đi học.
           </li>
           <li>
             <strong>Rất phông bạt và sĩ gái:<br /></strong>
-            - Luôn khoe tặng đứa nọ điện thoại, lì xì tiền, cho thuê nhà,... dù
-            1 đồng không có.<br />
+            - Luôn khoe tặng đứa nọ điện thoại, lì xì tiền, cho thuê nhà,... dù 1 đồng không có.<br />
+            <div class="img-list">
+                <img src="levantrung-luadao-kisper-khoe-li-xi-gai.png">
+                <img src="levantrung-luadao-kisper-khoe-cho-thue-nha.png">
+            </div>
             - Khoe ở chung cư cao cấp... còn thực tế thì đang đổi trọ liên tục
             trốn nợ. <br />
             - Khoe đang học văn bằng 2 ĐHBK nhưng thực tế trình độ tới lớp 12
-            nghỉ học & nói dối năm sinh.
+            nghỉ học & nói dối năm sinh. <br>
+            <div class="img-list">
+                <img src="levantrung-luadao-kisper-gia-thong-tin-hoc-van.png">
+            </div>
+            
+           <span style="color:orangered">✱</span> Còn rất nhiều ảnh chụp màn hình của bạn bè nó gửi, sẽ tạo 1 album up lên web dần...
           </li>
           <li>
             <strong>Đặc điểm làm việc: <br /></strong>
-            - Tư vấn rất nhiệt tình + chém gió<br />
-            - Sau khi hợp tác thì không tập trung vào công việc. <br />
+            - Tư vấn rất nhiệt tình + chém gió. Công nhận nó có năng khiếu nên nhiều người bị lừa.<br />
+            - Sau khi hợp tác thì không tập trung vào công việc. Nói chuyện cực kỳ lan man. <br />
             - Không bao giờ đúng deadline và có tiến triển. Lúc nào cũng có lý do trì hoãn.<br />
             - Suốt ngày gửi ảnh chat với gái và rủ vào "hội chăn rau" của nó.
+            <div class="img-list">
+                <img src="levantrung-luadao-kisper-khoe-chan-rau.png">
+            </div>
           </li>
           <li>
             <strong>Thành lập công ty ma: <br /></strong>
             - Địa chỉ không chính thức đăng ký. <br />
+            <div class="img-list">
+                <img src="levantrung-luadao-kisper-cong-ty-ma.png">
+            </div>
             - Ngành nghề nào nó cũng nhận dù không biết gì. <br />
             - <strong>Đặc biệt:</strong>
             <span style="color: #000; background: yellow; padding: 1px 5px"
@@ -410,48 +493,7 @@
       </div>
 
       <div class="section">
-        <h2>Các trường hợp bị Lê Văn Trung lừa đảo - quỵt tiền được ghi nhận:</h2>
-        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
-            <span class="period">2021 - 2022:</span> Chuyên lừa code web và hosting
-        </h3>
-        <ul style="margin-top: 5px;">
-            <li>
-                Tiếp cận các đối tượng cần dựng website và thuê hosting.
-            </li>
-            <li>
-                Nhận cọc nhưng không bàn giao code. (vì nó có biết code đâu)
-            </li>
-            <li>Hoặc gây sự cố hosting và vòi thêm tiền, nếu không sẽ cho down website của khách.</li>
-        </ul>
-
-        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
-            <span class="period">10/11/2023 - Nay:</span> Vay tiền bạn bè không trả
-        </h3>
-          <ul style="margin-top: 5px;">
-              <li>
-                  Mượn tiền bạn cùng chơi chung trong group game võ lâm (mượn tiền đi gái)
-              </li>
-              <li>
-                  Đòi nhiều lần không trả với lý do có 1 triệu đòi hoài và chặn liên lạc.
-              </li>
-          </ul>
-
-        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
-            <span class="period">23/01/2024 - Nay:</span> Lừa đảo cho thuê account AWS (Amazone web service)
-        </h3>
-          <ul style="margin-top: 5px;">
-              <li>
-                  Tiếp cận và tư vấn cho thuê account AWS và hỗ trợ deploy website
-              </li>
-              <li>
-                  Sau khi chuyển cọc 3 lần với tổng số tiền 5.750.000 VNĐ thì lấy lý do hệ thống bị lỗi để hoãn deadline.
-              </li>
-              <li>
-                 Từ 23/01 đến 23/04 vẫn không có bất kỳ tiến triển gì. Cứ ngoi lên báo có việc bận hoặc ốm nằm viện thì lại lặn đi 2 tuần.
-              </li>
-              <li>Đến khi đòi cọc thì lại liên tục hẹn "sang tuần hoàn tiền" và lặn</li>
-              <li>Cuối cùng là khóa nick, chặn comment và tin nhắn.</li>
-          </ul>
+        <h2>Các trường hợp bị Lê Văn Trung (Kisper) lừa đảo - quỵt tiền được ghi nhận:</h2>
 
         <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
             <span class="period">28/05/2024 - Nay:</span> Thuê người viết content SEO và quỵt tiền
@@ -471,39 +513,156 @@
             </li>
             <li>Cuối cùng là khóa nick, chặn comment, tin nhắn... và không trả 1 đồng nào</li>
         </ul>
+
+        <div class="img-list">
+            <img src="levantrung-luadao-kisper-quit-tien-nhan-vien-1.png">
+            <img src="levantrung-luadao-kisper-quit-tien-nhan-vien-2.png">
+            <img src="levantrung-luadao-kisper-quit-tien-nhan-vien-3.png">
+        </div>
+
+        <br>
+
+        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
+            <span class="period">23/01/2024 - Nay:</span> Lừa đảo cho thuê account AWS (Amazone web service)
+        </h3>
+          <ul style="margin-top: 5px;">
+              <li>
+                  Tiếp cận và tư vấn cho thuê account AWS và hỗ trợ deploy website
+              </li>
+              <li>
+                  Sau khi chuyển cọc 3 lần với tổng số tiền 5.750.000 VNĐ thì lấy lý do hệ thống bị lỗi để hoãn deadline.
+              </li>
+              <li>
+                 Sau 2 tháng chuyển tiền vẫn không có bất kỳ tiến triển gì. Cứ ngoi lên báo có việc bận hoặc ốm đau thì lại lặn đi.
+              </li>
+              <li>Chủ động trả cọc, đến khi đòi cọc thì lại liên tục hẹn "sang tuần hoàn tiền" và lặn</li>
+              <li>Cuối cùng là khóa nick, chặn comment và tin nhắn.</li>
+          </ul>
+          <div class="img-list">
+            <img src="levantrung-luadao-kisper-tim-ly-do-khong-tra-tien-1.png">
+            <img src="levantrung-luadao-kisper-tim-ly-do-khong-tra-tien-2.png">
+            <img src="levantrung-luadao-kisper-tim-ly-do-khong-tra-tien-3.png">
+        </div>
+
+
+        <br>
+
+        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
+            <span class="period">10/11/2023 - Nay:</span> Vay tiền bạn bè không trả
+        </h3>
+          <ul style="margin-top: 5px;">
+              <li>
+                  Mượn tiền bạn cùng chơi chung trong group game võ lâm
+              </li>
+              <li>
+                  Đòi nhiều lần không trả với lý do có 1 triệu đòi hoài và chặn liên lạc.
+              </li>
+          </ul>
+          <div class="img-list">
+            <img src="levantrung-luadao-kisper-quyt-tien-ban.png">
+        </div>
+
+        <br>
+
+        <h3 style="margin-bottom: 0px; padding-bottom: 0px;">
+            <span class="period">2019 - 2020:</span> Chuyên lừa code web và hosting
+        </h3>
+        <ul style="margin-top: 5px;">
+            <li>
+                Tiếp cận các đối tượng cần dựng website và thuê hosting.
+            </li>
+            <li>
+                Nhận cọc nhưng không bàn giao code. (vì nó có biết code đâu)
+            </li>
+            <li>Hoặc gây sự cố hosting và vòi thêm tiền, nếu không sẽ cho down website của khách.</li>
+        </ul>
+        <div class="img-list">
+            <img src="levantrung-luadao-kisper-lua-dao-code-web.jpg">
+            <img src="levantrung-luadao-kisper-cho-thue-hosting-vps.png">
+        </div>
       </div>
 
       <div class="section">
         <h2>Thông tin thêm:</h2>
-        <p>.....</p>
-      </div>
+        <h4 style="margin-bottom: 0;">Các nick FB của đối tượng lừa đảo Lê văn Trung (Kisper)</h4>
+        <ul style="margin-top: 5px;">
+            <li><a href="https://www.facebook.com/hiiamkisper" target="_blank">https://www.facebook.com/hiiamkisper</a></li>
+            <li><a href="https://www.facebook.com/SmodLike" target="_blank">https://www.facebook.com/SmodLike</a></li>
+            <li><a href="https://www.facebook.com/Hi.Kisper" target="_blank">https://www.facebook.com/Hi.Kisper</a></li>
+            <li>Sẽ cập nhật thêm...</li>
+        </ul>
+
+        <h4 style="margin-bottom: 0;">Các SĐT của đối tượng lừa đảo Lê văn Trung (Kisper) từng dùng:</h4>
+        <ul style="margin-top: 5px;">
+            <li>0868.294.091</li>
+            <li>0947.123.098</li>
+            <li>0354.626.141</li>
+            <li>Sẽ cập nhật thêm...</li>
+        </ul>
+        <hr>
+        <p>Thằng lừa đảo này có vẻ rất thích cái tên Kisper.</p>
+        <p>Ngoài lừa tiền thì nó còn lừa cả việc chia sẻ tài liệu, kinh nghiệm SEO, tăng like FB các thứ.</p>
+        <p>Ngoài ra còn làm đủ thứ việc tạp nham như: tuyển nv phòng răng, bán điện thoại, cho thuê acc netflix,... có thể cũng đi lừa nốt.</p>
+       
+    </div>
 
       
     <div class="section">
         <h2>Lời nhắn nhủ:</h2>
         <p><strong>Chào Trung,</strong>
             <br>
-            - Bố mẹ mày đặt cho mày cái tên Trung nhưng mày sống lại không có tí Trung Thực nào. Nên mày bị từ mặt là đúng rồi.
+            - Bố mẹ mày đặt cho mày cái tên Trung nhưng mày sống lại không có tí Trung Thực nào.
             <br>
             - Tin vui là từ nay, mày sẽ luôn có người viết và update CV miễn phí!
             <br>
             - Thông tin về mày sẽ liên tục được cập nhật lên website đến khi nào mày trả đủ tiền cho những người bị mày lừa đảo.
             <br>
-            - Để thể hiện thành ý: tao sẽ code tất cả chuẩn SEO (có cả responsive) và nuôi tất cả keywords liên quan đến mày và dự án của mày.
+            - Để thể hiện thành ý: web sẽ được code chuẩn SEO clone thành nhiều bản và nuôi tất cả keywords liên quan đến mày và dự án của mày.
             <br>
-            - Bỏ tiền túi ra bonus thêm 1 tool premium chuyên spam comment web này đến tất cả các nick MXH, fanpage,... những ai đang quen biết và làm việc với mày. 
+            - Bonus thêm 1 tool premium chuyên spam comment web này đến tất cả các nick MXH, fanpage,... những ai <strong>đang quen biết</strong> và <strong>làm việc với mày</strong>. 
             <br>
-            - Ngoài ra, công việc chính của mày chắc đi làm SEO thuê. Từ nay tất cả dự án nào mày tham gia tao sẽ giúp 1 vài "backlink chất lượng" cho nó. "Trắng" mới khó chứ "Đen" thì dễ thôi.
+            - Ngoài ra, công việc chính của mày chắc đi làm SEO thuê. Từ nay tất cả dự án nào mày tham gia sẽ được giúp 1 vài <strong>"backlink chất lượng"</strong>. "Trắng" mới khó chứ "Đen" thì dễ thôi.
             <br>
-            - Website này ngoài bản web (deploy ra chục con host free cho mày khỏi chặn) thì sẽ export ra PDF và được mail tới tất cả những người mày sẽ, đã và đang hợp tác.
+            - Website này ngoài bản web (deploy ra chục con host free cho mày khỏi chặn) thì sẽ export ra PDF và được mail tới tất cả những người mày <strong>sẽ, đã và đang</strong> hợp tác.
             <br>
             - Sau này có cưới hỏi hay yêu đương thì giữ kín vào. Không thì cả họ nhà gái sẽ được đọc cái tiểu sử này của mày.
             <br>
-            - Và yên tâm là số tiền mày lừa trên 10 triệu + đã có 3 đơn cùng tố cáo. Tao sẽ thu nhập thêm thông tin từ các bị hại trước đây để mày được ăn cơm nhà nước miễn phí.
+            - Và yên tâm là số tiền mày lừa trên 10 triệu + đã có 3 đơn cùng tố cáo. Mọi người sẽ thu nhập thêm thông tin từ các bị hại trước đây để mày được ăn cơm nhà nước miễn phí.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
       </div>
     </div>
     </div>
 
+    <div id="popup" class="popup">
+        <button class="close-btn">Close</button>
+        <img id="popup-img" src="" alt="Popup Image">
+    </div>
+
+    <script>
+        const popup = document.getElementById('popup');
+        const popupImg = document.getElementById('popup-img');
+        const closeBtn = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.img-list img').forEach(img => {
+            img.addEventListener('click', function() {
+                popupImg.src = this.src;
+                popup.style.display = 'flex';
+            });
+        });
+
+        closeBtn.addEventListener('click', function() {
+            popup.style.display = 'none';
+        });
+
+        popup.addEventListener('click', function(event) {
+            if (event.target === popup || event.target === closeBtn) {
+                popup.style.display = 'none';
+            }
+        });
+    </script>
   </body>
 </html>
